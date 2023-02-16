@@ -36,7 +36,7 @@ h1{
 /* members box */
 .member-box{
   width: calc(100%/3);
-  min-width: 350px;
+  min-width: 340px;
   float: left;
   padding: 25px 20px;
   margin: auto;  
