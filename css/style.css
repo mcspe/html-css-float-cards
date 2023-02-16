@@ -1,5 +1,43 @@
+/* reset */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* regole generali */
+body{
+  font-family: 'Fredoka', sans-serif;
+}
+
+.container{
+  width: 75%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 30px 50px;
+  text-align: center;
+}
+
+h1{
+  color: #E53170;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+/* /regole generali */
+
+/* members box */
+.member-box{
+  width: calc(100%/3);
+  float: left;
+  padding: 25px 20px;  
+}
+
+.member{
+  background-color: #0F0E17;
+  height: 100px;
+}
+/* /members box */
