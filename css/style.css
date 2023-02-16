@@ -36,19 +36,22 @@ h1{
 /* members box */
 .member-box{
   width: calc(100%/3);
+  min-width: 350px;
   float: left;
-  padding: 25px 20px;  
+  padding: 25px 20px;
+  margin: auto;  
 }
 
 .member{
   background-color: #0F0E17;
-  height: 100px;
+  /*height: 100px;*/
+  box-shadow: 0px 0px 10px 0 #0F0E17;
 }
 
 .member .pic img{
   height: 100px;
   float: left;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 .member .info{
